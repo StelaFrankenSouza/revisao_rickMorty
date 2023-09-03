@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    position: relative;
+    background-image: url(./imagem/FUNDO_3.jpg);
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}  
+
+.page-link{
+  background-color: #303130;
+  font-family:Arial, sans-serif;
+  color: #0dd348;
+  
+}
+
+ 
+
+.sairAplicacao{
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #303130;
+  text-align: center;
+}
+
+
+.animacao{
+ 
+  background: linear-gradient(45deg, #899688, #366e47, #0dd348, #0d2715, #6ea07d, #303130);
+  background-size: 500% 400%;
+  animation: fundoCard 10s linear infinite;
+  
+  /* display: flex; */
+}
+
+
+
+.fundo{
+ 
+  
+  background-size: cover;
+ 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 4;
+  opacity: 1;
+  animation: fundoimg 5s ;
+ 
+}
+
+
+@keyframes fundoimg {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.conatiner{
+  position: relative;
+  width: 100%;
+  height: 100%; 
+}
+
+.card{
+ width: 15rem;
+ padding: 0;
+}
+.navegacao{
+    text-align: center;
+   
+}
+
+
+
+.rotate-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation: rotate 2s linear infinite;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
